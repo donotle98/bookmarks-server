@@ -1,0 +1,20 @@
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Card with 35148b2a-eb68-4d63-ace9-a7cce973d6e1 id has been made","level":"info"}
+{"message":"Card with f0a01e7c-50d7-4bb2-a984-e8eec49cac2f id has been made","level":"info"}
+{"message":"Bookmark id not found","level":"error"}
+{"message":"Card with 5067b655-e337-4cde-8b2b-6e4d3a6bd165 id has been made","level":"info"}
+{"message":"Bookmark id not found","level":"error"}
+{"message":"Card with 73c9935d-09d4-4a4a-9929-fc49e4dc38d6 id has been made","level":"info"}
+{"message":"Bookmark id not found","level":"error"}
+{"message":"Card with 49578a86-35de-4aa8-9303-48543915fd23 id has been made","level":"info"}
+{"message":"Card with bad628d0-796a-4242-98d0-801c4f16c94b id has been made","level":"info"}
+{"message":"Card with 28318f93-2499-4773-87c8-a0ddc5e2612e id has been made","level":"info"}
+{"message":"Card with a7ed4aae-c400-4659-b580-dfbc05368673 id has been made","level":"info"}
+{"message":"Card with 68a45ebb-ef73-4122-9c23-b03f84f143f8 id has been made","level":"info"}
+{"message":"Card with 0e90603a-4d04-4cec-b079-63c37b9db027 id has been made","level":"info"}
+{"message":"Card with 6b5cfcb0-5992-4bba-9872-98b3e33d583c id has been made","level":"info"}
+{"message":"Bookmark with 6b5cfcb0-5992-4bba-9872-98b3e33d583c id has been deleted","level":"info"}
