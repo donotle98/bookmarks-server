@@ -11,22 +11,22 @@ bookmarkRouter.get("/", (req, res) => {
 });
 
 bookmarkRouter.post("/", bodyParser, (req, res) => {
-    const { title, rating, desc, url } = req.body;
+    const { title, url, desc, rating } = req.body;
 
     if (!title) {
-        logger.error("TITLE IS pho-king REQUIRED");
+        logger.error("TITLE IS REQUIRED");
         return res.status(400).send("TITLE IS REQUIRED");
     }
     if (!rating) {
-        logger.error("RATING IS pho-king REQUIRED");
+        logger.error("RATING IS REQUIRED");
         return res.status(400).send("RATING IS REQUIRED");
     }
     if (!desc) {
-        logger.error("Description IS pho-king REQUIRED");
+        logger.error("Description IS REQUIRED");
         return res.status(400).send("Description IS REQUIRED");
     }
     if (!url) {
-        logger.error("URL IS pho-king REQUIRED");
+        logger.error("URL IS REQUIRED");
         return res.status(400).send("URL IS REQUIRED");
     }
 
@@ -35,9 +35,9 @@ bookmarkRouter.post("/", bodyParser, (req, res) => {
     const bookmark = {
         id,
         title,
-        rating,
-        desc,
         url,
+        desc,
+        rating,
     };
 
     bookmarks.push(bookmark);
