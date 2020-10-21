@@ -11,7 +11,7 @@ bookmarkRouter.get("/", (req, res) => {
 });
 
 bookmarkRouter.post("/", bodyParser, (req, res) => {
-    const { title, url, desc, rating } = req.body;
+    const { title, url, description, rating } = req.body;
 
     if (!title) {
         logger.error("TITLE IS REQUIRED");
@@ -21,7 +21,7 @@ bookmarkRouter.post("/", bodyParser, (req, res) => {
         logger.error("RATING IS REQUIRED");
         return res.status(400).send("RATING IS REQUIRED");
     }
-    if (!desc) {
+    if (!description) {
         logger.error("Description IS REQUIRED");
         return res.status(400).send("Description IS REQUIRED");
     }
@@ -36,7 +36,7 @@ bookmarkRouter.post("/", bodyParser, (req, res) => {
         id,
         title,
         url,
-        desc,
+        description,
         rating,
     };
 

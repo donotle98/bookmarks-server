@@ -3,7 +3,7 @@ const bookmarks = [
         id: "1",
         title: "Amazon",
         url: "https://www.amazon.com/",
-        desc: "Online Retailer",
+        description: "Online Retailer",
         rating: 5,
     },
 ];
